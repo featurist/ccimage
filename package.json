@@ -1,0 +1,27 @@
+{
+  "name": "ccimage",
+  "version": "1.0.0",
+  "description": "Downloads creative commons images",
+  "main": "index.js",
+  "bin": {
+    "ccimage": "bin/ccimage.bin.js"
+  },
+  "scripts": {
+    "test": "./bin/ccimage.bin.js"
+  },
+  "author": "Josh Chisholm <joshuachisholm@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/featurist/ccimage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/featurist/ccimage/issues"
+  },
+  "dependencies": {
+    "node-uuid": "1.4.7"
+  }
+}
