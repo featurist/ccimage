@@ -1,4 +1,4 @@
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 var fs = require('fs');
 var http = require('httpism');
 
